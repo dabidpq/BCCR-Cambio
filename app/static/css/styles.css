@@ -1,0 +1,121 @@
+:root {
+    --font-family: 'Arial', sans-serif;
+    --background-color: #f4f4f9;
+    --container-bg-color: #ffffff;
+    --primary-color: #5cb3fd;
+    --primary-hover-color: #4ca3ed;
+    --text-color: #333;
+    --label-color: #666;
+    --input-bg-color: #f0f0f0;
+    --input-border-color: #ccc;
+    --input-text-color: #333;
+    --success-bg-color: #d4edda;
+    --success-border-color: #020101;
+    --error-bg-color: #f8d7da;
+    --error-border-color: #f5c6cb;
+    --error-text-color: #721c24;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: var(--text-color);
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--label-color);
+    text-align: left;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    background-color: var(--input-bg-color);
+    color: var(--input-text-color);
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.result, .error {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.result {
+    background-color: var(--success-bg-color);
+    border: 1px solid var(--success-border-color);
+    color: var(--success-border-color);
+}
+
+.error {
+    background-color: var(--error-bg-color);
+    border: 1px solid var(--error-border-color);
+    color: var(--error-text-color);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
