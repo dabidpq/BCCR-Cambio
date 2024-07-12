@@ -54,3 +54,23 @@ El proyecto está estructurado en cuatro capas principales:
 - **Acceso a Datos:** Contiene el código para realizar solicitudes al servicio web SOAP del BCCR.
 - **Entidades:** Contiene las clases que representan los datos de tipo de cambio.
 
+- ## Gestión de Errores
+
+- Se implementan mecanismos para manejar errores en la solicitud al servicio web y mostrar mensajes de error claros al usuario.
+
+## Contribución
+
+1. Hacer un fork del repositorio.
+2. Crear una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realizar los cambios y hacer commit (`git commit -am 'Agregar nueva funcionalidad'`).
+4. Hacer push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Crear un Pull Request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+
+Para preguntas o comentarios, por favor contacta garcilladavid@gmail.com.
+
