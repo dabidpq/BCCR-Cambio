@@ -14,8 +14,7 @@ Este proyecto es una aplicación web desarrollada con Flask que permite consulta
 1. **Clonar el repositorio:**
 
     
-    git clone https://github.com/tu-usuario/proyecto-bccr.git
-    cd proyecto-bccr
+   Git Clone del trabajo https://github.com/dabidpq/BCCR-Cambio
    
 
 2. **Crear y activar un entorno virtual:**
